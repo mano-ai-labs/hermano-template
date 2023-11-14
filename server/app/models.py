@@ -1,12 +1,6 @@
 from django.db import models
 
-class TodoList(models.Model):
-    name = models.CharField(max_length=255)
-
-class Todo(models.Model):
-    title = models.CharField(max_length=255)
-    description = models.TextField()
-    completed = models.BooleanField(default=False)
-    todo_list = models.ForeignKey(TodoList, on_delete=models.CASCADE)
-
-
+# Modify this model to suit your needs
+# See https://docs.djangoproject.com/en/4.2/topics/db/models/ for more information
+# class Model(models.Model):
+#     field1 = models.CharField(max_length=200)

@@ -12,8 +12,11 @@ poetry shell
 # Setup django website
 django-admin startproject main
 # Rename folder to server for clarity
-mv main server
+mv main server && cd server
 # Create an app
 python manage.py startapp app
-
+# Create migrations
+python manage.py makemigrations app
+# Run migrations
+python manage.py migrate
 ```

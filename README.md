@@ -1,2 +1,19 @@
-# fast-template
-Opinionated Django + React setup for building AI applications really fast
+# Hermano
+
+Hermano is our opinionated take for how to setup new projects that scale. It is a collection of tools and best practices that we have found useful over the years.
+
+# How I built this?
+
+```bash
+# Install poetry
+curl -sSL https://install.python-poetry.org | python3 -
+# Activate poetry
+poetry shell
+# Setup django website
+django-admin startproject main
+# Rename folder to server for clarity
+mv main server
+# Create an app
+python manage.py startapp app
+
+```

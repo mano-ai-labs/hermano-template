@@ -1,1 +1,33 @@
-__pycache__
+# Node.js
+node_modules/
+npm-debug.log*
+
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+server/static/web

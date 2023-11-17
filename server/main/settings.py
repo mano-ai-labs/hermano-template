@@ -124,7 +124,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_ROOT = "staticfiles"
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -139,11 +143,8 @@ CSRF_COOKIE_NAME = 'XSRF-TOKEN'
 
 # Django Vite settings
 # https://github.com/MrBin99/django-vite
-DJANGO_VITE = {
-  "default": {
-    "dev_mode": True,
-    "dev_server_port": "5173",
-    "static_url_prefix": "web",
-    "manifest_path": BASE_DIR / "static" / "web" / "manifest.json",
-  }
-}
+DJANGO_VITE_DEV_MODE = False
+DJANGO_VITE_STATIC_URL_PREFIX = "web"
+DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "web"
+DJANGO_VITE_MANIFEST_PATH = BASE_DIR / "static" / "web" / "manifest.json"
+DJANGO_VITE_DEV_SERVER_PORT = 5173

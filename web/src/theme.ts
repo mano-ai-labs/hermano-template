@@ -1,5 +1,5 @@
 import { createTheme } from "@mantine/core";
 
 export const theme = createTheme({
-  /* Put your mantine theme override here */
+  fontFamily: `Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji`,
 });

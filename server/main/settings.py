@@ -143,7 +143,7 @@ CSRF_COOKIE_NAME = 'XSRF-TOKEN'
 
 # Django Vite settings
 # https://github.com/MrBin99/django-vite
-DJANGO_VITE_DEV_MODE = False
+DJANGO_VITE_DEV_MODE = True
 DJANGO_VITE_STATIC_URL_PREFIX = "web"
 DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "web"
 DJANGO_VITE_MANIFEST_PATH = BASE_DIR / "static" / "web" / "manifest.json"

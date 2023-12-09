@@ -20,3 +20,12 @@ python manage.py makemigrations app
 # Run migrations
 python manage.py migrate
 ```
+
+# Todo
+
+- [ ] Setup Next.js pages app with typescript
+- [ ] Add Mantine & Tailwind
+- [ ] Setup authentication
+- [ ] Sync postgres WAL to s3
+- [ ] Add backend logging that can be sent to cloudwatch
+- [ ] Add frontend logging that can be sent to posthog

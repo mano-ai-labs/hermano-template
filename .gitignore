@@ -31,3 +31,8 @@ build/
 *.egg
 *.egg-info
 server/static/web
+
+# Node.js
+node_modules/
+npm-debug.log*
+.next

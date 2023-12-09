@@ -1,13 +1,9 @@
-import { usePage } from "@inertiajs/react";
-
-import { Container } from "@mantine/core";
-
-export default function Home() {
-  const { props } = usePage<{ name: string; id: number }>();
-
+export default function IndexPage() {
   return (
-    <Container>
-      <div className="text-center">can't stop me now #{props.id}</div>
-    </Container>
+    <div className="flex items-center justify-center mt-8">
+      <h1 className="text-2xl text-center font-bold bg-gradient-to-r from-green-400 to-green-800 bg-clip-text text-transparent">
+        hermano 👋
+      </h1>
+    </div>
   );
 }

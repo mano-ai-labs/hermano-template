@@ -4,22 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.mano-wrapper {
-  background-image: url("https://images.unsplash.com/photo-1635693206507-1d749cb30ecb?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1699865575415-4ef0db078a4a?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .background-animate {
-  background-size: 400%;
+  background-size: 115%;
 
-  -webkit-animation: morhph 5s ease-in-out infinite;
-  -moz-animation: morhph 5s ease-in-out infinite;
-  animation: morhph 5s ease-in-out infinite;
+  -webkit-animation: bg-animate 60s linear infinite;
+  -moz-animation: bg-animate 60s linear infinite;
+  animation: bg-animate 60s linear infinite;
 }
 
-@keyframes morhph {
+@keyframes bg-animate {
   0%,
   100% {
     background-position: 0% 0%;

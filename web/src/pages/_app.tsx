@@ -30,8 +30,7 @@ function Layout({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
 
   return (
-    <div className="min-h-screen">
-      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#15803d_100%)] background-animate"></div>
+    <div className="min-h-screen background-image background-animate">
       <AppShell
         header={{ height: { base: 60 } }}
         navbar={{ width: 300, breakpoint: "sm", collapsed: { desktop: true, mobile: !opened } }}

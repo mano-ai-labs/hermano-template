@@ -23,9 +23,10 @@ python manage.py migrate
 
 # Todo
 
-- [ ] Setup Next.js pages app with typescript
-- [ ] Add Mantine & Tailwind
+- [x] Setup Next.js pages app with typescript
+- [x] Add Mantine & Tailwind
 - [ ] Setup authentication
+- [ ] Setup payment plans to grant permissions
 - [ ] Sync postgres WAL to s3
 - [ ] Add backend logging that can be sent to cloudwatch
 - [ ] Add frontend logging that can be sent to posthog
